@@ -56,14 +56,10 @@ export default function App(){
         <section id="skills" className="py-12">
           <h3 className="text-2xl font-semibold">Tech Stack</h3>
           <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-            <SkillTile name="React" />
-            <SkillTile name="Node.js" />
-            <SkillTile name="Tailwind CSS" />
-            <SkillTile name="MongoDB" />
-            <SkillTile name="TypeScript" />
-            <SkillTile name="Docker" />
-            <SkillTile name="Git/GitHub" />
-            <SkillTile name="REST & GraphQL APIs" />
+            <SkillTile name="Fivem" />
+            <SkillTile name="Python" />
+            <SkillTile name="Html" />
+            <SkillTile name=".lua" />
           </div>
         </section>
 
