@@ -27,8 +27,8 @@ export default function App(){
       <main className="max-w-6xl mx-auto p-6">
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12">
           <motion.div initial={{opacity:0, x:-30}} animate={{opacity:1, x:0}} transition={{duration:0.45}}>
-            <h2 className="text-4xl font-extrabold leading-tight">Hello, I'm Kev — Full Fivem Developer Discord: desktop.trim</h2>
-            <p className="mt-4 text-slate-300">I Work With Python, Esx, Qb, .lua.</p>
+            <h2 className="text-4xl font-extrabold leading-tight">Hello, I'm Kev — Fivem Developer</h2>
+            <p className="mt-4 text-slate-300">I specialize in building responsive, scalable web applications with Python, and modern web technologies.</p>
             <div className="mt-6 flex gap-3">
               <a className="inline-block px-5 py-3 bg-indigo-500 rounded-md font-medium" href="#projects">View Projects</a>
               <a className="inline-block px-5 py-3 border border-slate-600 rounded-md text-slate-200" href="#contact">Hire Me</a>
@@ -41,31 +41,30 @@ export default function App(){
 
         <section id="about" className="py-12">
           <h3 className="text-2xl font-semibold">About Me</h3>
-          <p className="mt-2 text-slate-300 max-w-2xl">I'm a developer I Work With Python, Esx, Qb, .lua And I Can Make Bots.</p>
+          <p className="mt-2 text-slate-300 max-w-2xl">I'm a developer passionate about crafting modern digital experiences. With strong foundations in Python, Fivem, .lua, and databases, I enjoy solving problems and building applications that scale. Outside of coding, I contribute to open-source projects and write dev blogs And Im 13 Years Old Making Custom Scripts Email Me For Price's.</p>
         </section>
 
         <section id="projects" className="py-12">
           <h3 className="text-2xl font-semibold">Featured Projects</h3>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
             <ProjectCard title="Portfolio Website" desc="A responsive personal site built with React, Tailwind, and Framer Motion." />
-            <ProjectCard title="Task Manager" desc="Full-stack MERN app with JWT auth, REST API, and MongoDB." />
+            <ProjectCard title="Task Manager" desc="Love Deving." />
             <ProjectCard title="Real-time Chat" desc="Chat app powered by Socket.io and Express with live messaging." />
           </div>
         </section>
 
         <section id="skills" className="py-12">
-          <h3 className="text-2xl font-semibold">Tech Stack</h3>
+          <h3 className="text-2xl font-semibold">Servers That Im Deving For</h3>
           <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-            <SkillTile name="Fivem" />
-            <SkillTile name="Python" />
-            <SkillTile name="Html" />
-            <SkillTile name=".lua" />
+            <SkillTile name="Central Valley WL" />
+            <SkillTile name="RizzleWorld NYC" />
+            <SkillTile name="WestBrook Valley Roleplay" />
           </div>
         </section>
 
         <section id="contact" className="py-12">
           <h3 className="text-2xl font-semibold">Contact</h3>
-          <p className="mt-2 text-slate-300">Interested in collaborating? Reach me at <a className="underline" href="mailto:kev@example.com">kevisdev000@gmail.com</a> or send a quick message below.</p>
+          <p className="mt-2 text-slate-300">Interested in Hiring Me? Reach me at <a className="underline" href="mailto:kevisdev000@gmail.com">kev@example.com</a> or send a quick message below.</p>
 
           <form onSubmit={handleSubmit} className="mt-6 max-w-xl">
             <label className="block text-sm text-slate-300">Email</label>
